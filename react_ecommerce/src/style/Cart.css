@@ -1,0 +1,26 @@
+.shooping-cart{
+    width: 75%;
+  }
+
+  .cart{
+    width: 100%;
+  }
+
+  .num{
+    width: 30%;
+  }
+
+  .small_img{
+    width: 70px;
+    height: 90px;
+  }
+
+  .coupon{
+    width: 60%;
+    padding: 8px;
+    border-radius: 10px;
+  }
+
+#cou::placeholder{
+    color: gray;
+}

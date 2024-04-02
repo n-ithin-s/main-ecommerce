@@ -1,0 +1,76 @@
+.single_product{
+    background: url(../../public/IMAGES/argentina-messi-jersey.webp);
+    background-size: 98%;
+    background-repeat: no-repeat;
+   
+    border:1px solid;
+    width: 100%;
+    min-height: 500px;
+  padding-bottom: 10px;
+
+  }
+
+  .position_div{
+
+    width: 10%;
+    min-height: 17%;
+    
+  }
+  .position_img{
+    width: 100%;
+    min-height: 100%;
+    
+  }
+
+  .position_div:hover{
+    border: 1px solid blue;
+  }
+
+ 
+
+  .cart_product{
+    margin-top: 440px;
+ 
+   
+    background-color: rgb(229, 201, 18);
+    border: 5px;
+    padding: 5px;
+    padding-inline:10px;
+    padding-block: 8px;
+    text-decoration: none;
+    color: white;
+
+  }
+
+  
+  .buy_product{
+    margin-top: 440px;
+   
+   
+    background-color: rgb(229, 201, 18);
+    border: 5px;
+    padding: 5px;
+    padding-inline:10px;
+    padding-block: 8px;
+    text-decoration: none;
+    color: white;
+
+  }
+  .rating{
+    width: 9%;
+    border: 1px solid;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    text-decoration: none;
+    background-color: green;
+
+  }
+
+  #hide{
+    display: none;
+  }
+  #close{
+    display: none;
+  }

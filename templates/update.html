@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}   <!--for security (eg: to prevent malacious attack from external site)-->
+        {{form.as_p}}
+        
+        
+        <button type="submit" class="btn btn-primary ">ADD</button>
+        <a href="/view/">back</a>
+    </form>
+</body>
+</html>

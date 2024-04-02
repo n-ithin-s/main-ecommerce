@@ -1,0 +1,113 @@
+.space{
+    margin-top: 100px;
+}
+.toalign{
+    text-align: justify;
+}
+.shop_now{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 60px;
+}
+
+.product_featured{
+    width: 240px;
+  
+
+   
+    
+   
+}
+.product_featured:hover{
+    scale: 1.07;
+}
+
+
+
+
+
+
+.product_featured_boot{
+    width: 306px;
+   
+    
+   
+}
+.boot_jersey{
+    
+    width: 306px;
+    height: 220px;
+   
+   
+}
+.boot_jersey_img{
+    width: 100%;
+    height: 220px;
+}
+
+.ball_featured{
+    width: 240px;
+   
+    
+   
+}
+.ball_jersey{
+    
+    width: 240px;
+    height: 240px;
+   
+   
+}
+.ball_jersey_img{
+    width: 100%;
+    height: 240px;
+}
+.social_media{
+    width:240px;
+    height: 300px;
+}
+.social_media_img{
+    width:240px;
+    height: 300px;
+}
+
+
+.spa__ce{
+    margin-top: 300px;
+}
+
+.add_cart{
+
+   
+    padding: 8px;
+  color: white;
+    text-decoration: none;
+    border:0px solid;
+   
+}
+
+.box{
+    margin-top: 60px;
+    background: url(../../public/IMAGES/sports_shop2_new.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 610px;
+}
+
+
+#hide{
+    display: none;
+}
+#close{
+    display: none;
+}
+.wrapp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}

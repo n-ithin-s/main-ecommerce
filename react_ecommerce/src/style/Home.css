@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    overflow-x: hidden;
+  background-color: black;
+    background-repeat:initial;
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+/* / slide*/
+.box13{
+ margin-top: 100px;
+    width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+.slide1{
+    width: 100%;
+    height: 100%;
+    background: url(../../public/IMAGES/pic_anime1.jpg);
+    animation: slide 12s infinite;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slide2{
+    width: 100%;
+    height: 100%;
+    background: url(../../public/IMAGES/pic_anime2.jpg);
+    animation: slide 12s infinite;
+    animation-delay: 4s;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: right;
+}
+.slide3{
+    width: 100%;
+    height: 100%;
+    background: url(../../public/IMAGES/pic_anime14.png);
+    animation: slide 12s infinite;
+    animation-delay: 8s;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: right;
+  
+  
+}
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  /* / slide*/
+
+
+.headline_img{
+    
+    width: 100%;
+    height: 600px;
+    margin-bottom: 1px;
+  
+}
+.athlete{
+    width: 100%;
+    height: 100%;
+}
+.shop{
+    margin-top: 160px;
+    color:rgb(14, 110, 236)  ;
+}
+.shop_next{
+    color:rgb(14, 110, 236)  ;
+}
+.shop_now{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 60px;
+}
+.product_range{
+    width: 250px;
+    height: 220px;
+}
+.why{
+    margin-bottom: 100px;
+}
+
+
+.n_sports{
+    text-align: justify;
+}
+
+.product_featured{
+    width: 240px;
+   
+  
+    
+   
+}
+.product_featured:hover{
+    scale: 1.1;
+    
+}
+.messi_jersey{
+   
+    width: 240px;
+    height: 300px;
+   
+   
+}
+.messi_jersey_img{
+    
+    width: 100%;
+    height: 300px;
+}
+
+.product_footer{
+background-color:white;
+color: black;
+
+}
+.over{
+    text-decoration: line-through;
+}
+.add_cart{
+   
+    padding: 8px;
+    color: white;
+      text-decoration: none;
+      border:0px solid;
+    
+  }
+  
+
+.toalign{
+    text-align: justify;
+}
+
+
+
+
+
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 2s;
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(60%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+

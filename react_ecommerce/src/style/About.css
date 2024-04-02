@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    overflow-x: hidden;
+  background-color: black;
+    background-repeat:initial;
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+
+.RONO{
+    width: 100%;
+}
+.space{
+    margin-top: 140px;
+}
+.toalign{
+text-align: justify;
+}
+.social_media{
+    width:240px;
+    height: 300px;
+}
+.social_media_img{
+    width:240px;
+    height: 300px;
+}
+
+.email{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+}
+.newsletter{
+    padding-bottom: 140px;
+}
+.subscribe{
+    border: 1px solid ;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+    background-color: rgb(48, 193, 241);
+    padding-inline: 30px;
+}
+.subscribe:hover{
+    background-color:red;
+}
+
+.spa__ce{
+    margin-top: 300px;
+}
+
+.add_cart{
+
+  
+  color: white;
+    text-decoration: none;
+    border:0px solid;
+    background: blue;  
+}
+
+
+
+  #hide{
+    display: none;
+  }
+  #close{
+    display: none;
+  }
+

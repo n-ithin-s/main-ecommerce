@@ -1,0 +1,135 @@
+.check_side{
+    background-color: grey !important;
+}
+.lastname{
+    width: 100%;
+}
+#hide{
+    display: none;
+}
+#close{
+    display: none;
+}
+/* Checkout.css for dark theme */
+.checkout-container {
+    color: #fff;
+    background-color: #000; /* Assuming the entire background needs to be black */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-heading {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .user-details-card, .order-summary-card {
+    background-color: #222; /* Slightly lighter than the background for depth */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  }
+  
+  .card-title {
+    color: #fff;
+  }
+  
+  .list-group-item {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .make-order-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #007bff; /* Bootstrap primary blue, adjust as needed */
+    border: none;
+  }
+  
+  .make-order-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+  }
+  
+  /* Feel free to add or adjust styles to fit your exact needs */
+  .animated-section {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-content {
+    padding: 20px;
+    background-color: #303030;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .promo-banner {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+
+  @keyframes fadeinout {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .order-confirmation-animation {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(11, 101, 3, 0.8);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 9999;
+    animation: fadeInOut 2s linear;
+  }
+  
+  .order-confirmation-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order-confirmation-content .material-icons {
+    font-size: 48px;
+    margin-right: 10px;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }

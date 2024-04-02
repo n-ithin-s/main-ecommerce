@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+    overflow-x: hidden;
+  background-color: black;
+    background-repeat:initial;
+    background-size: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.nav_black{
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+   
+}
+
+.logo{
+    margin-top: -5px;
+    width: 100px;
+    height: 60px;
+}
+::placeholder{
+    color: white;
+}
+.search input{
+    border: none;
+    width: 90%;
+    background-color: rgb(48, 193, 241);
+    
+}
+.search {
+    padding: 3px;
+    padding-left: 6px;
+    border-radius: 15px;
+    background-color: rgb(48, 193, 241);
+    
+}
+.nav{
+    color: grey;
+}
+.nav:hover{
+    color:red;
+    transition: ease-in-out;
+
+}
+
+#hide{
+    display: none;
+  }
+  #close{
+    display: none;
+  }
+  

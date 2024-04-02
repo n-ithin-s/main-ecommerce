@@ -1,0 +1,76 @@
+
+  
+  .payment-container {
+    margin-top: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f6f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group, .form-row {
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-row .form-group {
+    flex-basis: 48%;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  #cardNumber, #expiryDate, #cvv, #cardName {
+    padding: 10px;
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #037d56;
+  }
+#expiryDate{
+    width: 80%;
+}
+#cvv{
+    width: 100%;
+}
+.form-group ::placeholder{
+    color: #970000;
+}
+.toast-dark {
+  
+  color: #000000; /* Light text color */
+}
